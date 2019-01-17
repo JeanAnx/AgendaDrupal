@@ -1,0 +1,14 @@
+# Premier niveau = nom de la bibliothèque
+base-style:
+  css:
+    # niveau SMACSS:
+    base:
+      css/base.css: {}
+    layout:
+      css/layout.css: {}
+    module:
+      css/module.css: {}
+    state:
+      css/state.css: {}
+    theme:
+      css/theme.css: {}

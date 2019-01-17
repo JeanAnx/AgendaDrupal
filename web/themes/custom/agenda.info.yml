@@ -1,0 +1,7 @@
+name: Agenda
+type: theme
+description: "Un thème chanmax pour un agenda de toute beauté"
+base theme: classy
+core: 8.x
+libraries:
+  - agenda/base-style
