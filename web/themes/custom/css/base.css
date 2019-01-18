@@ -88,7 +88,7 @@ span,
     flex-flow: row nowrap;
     justify-content: center;
     width: 50%;
-    margin: 2em auto;
+    margin: 3em auto 5em auto;
 
 }
 
@@ -141,3 +141,18 @@ span.field-content > a {
     background-color: rgba(237, 24, 54, .3);
 }
 
+
+/**
+CONCERTS VUE
+ */
+
+.concertsVue > .view-content > div > div > span > a {
+    top: 0;
+    background-color: rgba(237,24,54,0.5);
+
+}
+
+.concertsVue > .view-content > div > div > span {
+    height: auto;
+
+}
