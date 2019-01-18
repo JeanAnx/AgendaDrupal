@@ -1,0 +1,38 @@
+
+.layout-sidebar-first {
+    order: 1;
+}
+
+.layout-content {
+    order: 2;
+    width: 75%;
+}
+
+.layout-sidebar-second {
+    order: 3;
+}
+
+.layout-sidebar-first,
+.layout-sidebar-second {
+    flex: 20%;
+}
+
+
+.region-primary-menu ul.menu {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: 2em auto;
+
+}
+.region-primary-menu ul.menu a {
+    padding: 1em;
+}
+
+.layout-sidebar-first > div > div , .layout-sidebar-first > div > nav {
+    border: 2px solid rgba(78, 129, 37 , .5);
+    border-left: 2em solid #669C2D;
+    box-shadow: 2px 2px 2px grey;
+    margin: 1em;
+    padding: 1em;
+}

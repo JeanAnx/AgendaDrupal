@@ -1,0 +1,116 @@
+
+main {
+    display: flex;
+}
+
+.views-row span {
+    color: white;
+
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a.site-logo img {
+    width: 30em;
+    padding: 1em;
+}
+
+main {
+    width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+span,
+.views-row span {
+    color: black;
+}
+
+
+#block-agenda-branding {
+    display: flex;
+    flex-flow: row-reverse wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.site-name a {
+    font-size: 3em;
+    color: #EE0331;
+}
+
+#block-agenda-search {
+    width: 50%;
+    margin: 1em auto;
+    text-align: center;
+}
+
+.form-search {
+    border: 1px solid gainsboro;
+    border-radius: 25px;
+}
+
+#edit-submit {
+    background-color: white;
+    border: 1px solid gainsboro;
+}
+
+
+
+.layout-sidebar-first {
+    order: 1;
+}
+
+.layout-content {
+    order: 2;
+    width: 75%;
+}
+
+.layout-sidebar-second {
+    order: 3;
+}
+
+.layout-sidebar-first,
+.layout-sidebar-second {
+    flex: 20%;
+}
+
+
+#block-agenda-main-menu .menu {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+    width: 50%;
+    margin: 2em auto;
+
+}
+
+#block-agenda-main-menu .menu a {
+    padding: 1em;
+}
+
+#block-agenda-main-menu .menu a.is-active {
+    background-color: gainsboro;
+    color: white;
+}
+
+
+.layout-sidebar-first > div > div , .layout-sidebar-first > div > nav {
+    border: 2px solid rgba(78, 129, 37 , .5);
+    border-left: 2em solid #669C2D;
+    box-shadow: 2px 2px 2px grey;
+    margin: 1em;
+    padding: 1em;
+}
+
+.view-agenda-des-concerts {
+    width: 70%;
+    margin: 2em auto;
+}
