@@ -18,8 +18,9 @@ a.site-logo img {
     padding: 1em;
 }
 
-main {
-    width: 100%;
+.layout-content {
+    width: 90%;
+    margin: 1em auto;
 }
 
 h1,
@@ -61,7 +62,6 @@ span,
     background-color: white;
     border: 1px solid gainsboro;
 }
-
 
 
 .layout-sidebar-first {
@@ -111,6 +111,33 @@ span,
 }
 
 .view-agenda-des-concerts {
-    width: 70%;
+    width: 100%;
     margin: 2em auto;
 }
+
+.field-content {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+span.field-content {
+    height: 0;
+}
+
+.field-content img {
+    width: 100%;
+    height: 100%;
+    opacity: .9;
+}
+
+
+span.field-content > a {
+    position: relative;
+    top: -22vw;
+    padding: 2em;
+    color: #FCD750;
+    font-weight: bolder;
+    font-size: 3vw;
+    background-color: rgba(237, 24, 54, .3);
+}
+
