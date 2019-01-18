@@ -7,5 +7,7 @@ libraries:
   - agenda/base-style
 regions:
   header: 'Header'
+  sidebar_first: 'Side_bar_first'
   content: 'Content'
+
   footer: 'Footer'

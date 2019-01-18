@@ -28,11 +28,3 @@
 .region-primary-menu ul.menu a {
     padding: 1em;
 }
-
-.layout-sidebar-first > div > div , .layout-sidebar-first > div > nav {
-    border: 2px solid rgba(78, 129, 37 , .5);
-    border-left: 2em solid #669C2D;
-    box-shadow: 2px 2px 2px grey;
-    margin: 1em;
-    padding: 1em;
-}
